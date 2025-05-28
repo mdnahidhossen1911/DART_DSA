@@ -1,5 +1,5 @@
 import 'dart:core';
-import 'searching.dart';
+import 'searching/searching.dart';
 
 void main() async {
   final stopwatch = Stopwatch()..start();
