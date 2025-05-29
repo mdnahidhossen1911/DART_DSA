@@ -6,11 +6,9 @@ void main() async {
 
   print("Nahid");
 
-  // Linear searching
-  print(await Searching.linearSearch([60, 1, 88, 10, 11, 100], 100));
+  print(Searching.binarySearch(
+      [1, 3, 5, 7, 8, 9, 12, 23, 43, 55, 67, 76, 89], 55));
 
   stopwatch.stop();
   print('Operation completed in: ${stopwatch.elapsedMilliseconds} ms');
 }
-
-
