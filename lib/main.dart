@@ -1,13 +1,12 @@
 import 'dart:core';
-import 'searching/searching.dart';
+import 'package:dart_problem_solving/sorting/selection_sort.dart';
 
 void main() async {
   final stopwatch = Stopwatch()..start();
 
   print("Nahid");
 
-  print(Searching.binarySearch(
-      [1, 3, 5, 7, 8, 9, 12, 23, 43, 55, 67, 76, 89], 55));
+  print(SelectionSort.selectionSort([3,5,3,6,7,8,2,134,6,75,45,3,23]));
 
   stopwatch.stop();
   print('Operation completed in: ${stopwatch.elapsedMilliseconds} ms');
