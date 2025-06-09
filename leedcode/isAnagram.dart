@@ -3,14 +3,8 @@ class Solution {
     List<String> f = s.split('')..sort();
     List<String> se = t.split('')..sort();
 
-    if(f.length != se.length){
+    if(f.join() != se.join()){
       return false;
-    }
-
-    for(int i=0; i<f.length; i++){
-      if(f[i] != se[i]){
-        return false;
-      }
     }
 
     return true;
